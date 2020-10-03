@@ -1,8 +1,5 @@
 # Say Hi to JOHN
 
-* Hello Max
-* Nix Max, er muss gehen.
-
 ![image]()
 
 John wants to do a good job in his Digital Organization class.
