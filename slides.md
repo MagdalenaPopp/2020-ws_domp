@@ -1,5 +1,7 @@
 # Say Hi to JOHN
 
+# michelle was here
+
 ![image]()
 
 John wants to do a good job in his Digital Organization class. 
