@@ -16,6 +16,13 @@ Let's help John out.
 
 ---
 
+## Beobachtung
+
+* die Studentinnen sind sehr engagiert
+* ich bin zufrieden
+
+---
+
 ## What is zsh?
 
 John has found the Terminal on his Mac. The first thing he reads is:
