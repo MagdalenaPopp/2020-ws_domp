@@ -2,10 +2,17 @@
 
 ![image]()
 
-John wants to do a good job in his Digital Organization class. 
-But he doesn't understand what is happening on his MacBook. 
+John wants to do a good job in his Digital Organization class.
+But he doesn't understand what is happening on his MacBook.
 
 Let's help John out.
+
+---
+
+## Neues Slide vom Prof.
+
+* blah blah
+* more blah blah
 
 ---
 
@@ -14,7 +21,7 @@ Let's help John out.
 John has found the Terminal on his Mac. The first thing he reads is:
 ```
 The default interactive shell is now zsh.
-To update your account to use zsh, please run 
+To update your account to use zsh, please run
 `chsh -s /bin/zsh`.
 ```
 - zsh or Z shell (bash: prior to macOs Catalina)
@@ -24,11 +31,11 @@ To update your account to use zsh, please run
 ---
 ## Running into Problems
 ~~~
-John:~ john$ /Users/john/Desktop/DO-CLASS 
+John:~ john$ /Users/john/Desktop/DO-CLASS
 -bash: /Users/john/Desktop/DO-CLASS: is a directory
 >npm install -g reveal-md
 >sudo npm install -g reveal-md
->reveal-md -v 
+>reveal-md -v
 -bash: -v: command not found
 ~~~
 Problem 1: John wasn't in the correct directory.
@@ -44,7 +51,7 @@ John is in the correct directory. He has installed npm, reveal-md and node but..
 ~~~~
 Johns:~ john$ cd /Users/john/Desktop/DO-CLASS
 [Johns-MacBook:DO-CLASS john$ >npm install -g reveal-md
-usage: install [...] 
+usage: install [...]
 [Johns-MacBook:DO-CLASS john$ node -v
 v.12.18.3
 [Johns-MacBook:DO-CLASS john$ npm -v
@@ -70,14 +77,14 @@ Downloading Chromium r674921 - 108.3 Mb [==========] 100% 0.0s
 ## Solving John's Problem continued
 Where is the reveal-md File saved?
 ```
-/Users/john/.npm-global/bin/reveal-md 
+/Users/john/.npm-global/bin/reveal-md
 ```
-John has found the correct 'Path' to his slides. NPM stores its packages in the hidden files on MaBook. John does not have permission to write to these directories. 
+John has found the correct 'Path' to his slides. NPM stores its packages in the hidden files on MaBook. John does not have permission to write to these directories.
 
 Problem 2: Hidden files and Mac Permissions
 
 ---
-## Hidden Files 
+## Hidden Files
 To see hidden files on Mac:
 1. John opens Users in Macintosh HD via Spotlight Search (e.g.users/john)
 2. He presses Command+Shift+Dot
@@ -87,10 +94,10 @@ To see hidden files on Mac:
 ---
 
 ## To circumvent Mac Permissions:
-- John has to configure npm to use a different directory. 
+- John has to configure npm to use a different directory.
 - He configures npm to use new directory path
 ```
-[Johns-MacBook:DO-CLASS john$ 
+[Johns-MacBook:DO-CLASS john$
 > export PATH=~/.npm-global/bin:$PATH
 > echo $PATH
 /Users/john/.npm-global/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -145,7 +152,7 @@ drwx------@ 17 john  staff   544 Oct  1 15:25 ..
 ## Solution
 John now goes into the directory where slides.md is.
 ```
-cd /Users/john/Desktop/DO-CLASS 
+cd /Users/john/Desktop/DO-CLASS
 ```
 He exports the Path of reveal-md to his directory.
 ```
