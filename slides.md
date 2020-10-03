@@ -1,6 +1,7 @@
 # Say Hi to JOHN
 
-Hello Max
+* Hello Max
+* Nix Max, er muss gehen.
 
 ![image]()
 
