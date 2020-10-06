@@ -11,8 +11,6 @@ Let's help John out.
 
 ## What is zsh?
 
-![John Headscratch](John Headscratch.jpeg)
-
 John has found the Terminal on his Mac. The first thing he reads is:
 ```
 The default interactive shell is now zsh.
@@ -33,11 +31,23 @@ John:~ john$ /Users/john/Desktop/DO-CLASS
 >reveal-md -v
 -bash: -v: command not found
 ~~~
-Problem 1: John wasn't in the correct directory.
+**Problem 1: John wasn't in the correct directory.**
 ```
 John:~ john$ cd /Users/john/Desktop/DO-CLASS
 ```
-cd = change directory
+---
+
+![John Headscratch](John Headscratch.jpeg)
+
+---
+## Some important inputs
+**cd** = change directory
+**npm** = Node Package Manager
+**install -g** = global install (module is accessible from any project)
+**node.js** = open-source, Javascript runtime environment
+**reveal.js** = free open source HTML presentation framework; to create presentations 
+**reveal-md** = using Markdown (instead of HTML) to create presentations
+
 
 ---
 ## Slides won't open
@@ -54,21 +64,16 @@ v.12.18.3
 -bash: -v: command not found
 ~~~~
 ...his slides still won't open.
----
-## Some important inputs
 
-- npm = Node Package Manager
-- install -g = global install
---> module is accessible from any project
-- node.js = open-source, Javascript runtime environment
-- reveal.js = free open source HTML presentation framework --> to create presentations 
-- reveal-md = using Markdown (instead of HTML) to create presentations
+---
+
+![John Shoulder Shrug](John Shoulder Shrug.jpeg)
 
 ---
 ## Solving John's Problem
 Finally, he uses npx and **it works**...
 
-- npx = npm package runner
+- **npx** = npm package runner
 --> it works because it doesn't matter where or if you've installed reveal-md.
 --> npx will temporarily install it and run it.
 ```
@@ -83,10 +88,11 @@ Where is the reveal-md File saved?
 ```
 /Users/john/.npm-global/bin/reveal-md
 ```
-John has found the correct 'Path' to his slides. NPM stores its packages in the hidden files on MaBook. John does not have permission to write to these directories.
-bin = binary file --> composed of something other than human-readable text
+John has found the correct path to his slides. NPM stores its packages in the hidden files on MaBook. John does not have permission to write to these directories.
 
-Problem 2: Hidden files and Mac Permissions
+**bin** = binary file --> composed of something other than human-readable text
+
+**Problem 2: Hidden files and Mac Permissions**
 
 ---
 ## Hidden Files
@@ -99,8 +105,8 @@ To see hidden files on Mac:
 ---
 
 ## To circumvent Mac Permissions:
-- John has to configure npm to use a different directory.
-- He configures npm to use new directory path
+John has to configure his directory (DO-Class) 
+to run reveal-md by making it's path available 
 ```
 [Johns-MacBook:DO-CLASS john$
 > export PATH=~/.npm-global/bin:$PATH
@@ -111,11 +117,17 @@ To see hidden files on Mac:
 [Usage: cli <slides.md> [options]
 See https://github.com/webpro/reveal-md for more details.
 ```
+
 ---
 ## Command Translations
-- PATH = tells the shell which directories to search for ready-to-run programs
-- export command = makes environment variables available to other programs 
-- echo $PATH = to check the path and see what directories are included in the currently active path of the shell The directories listed are those that are searched for commands. 
+**PATH**
+tells the shell which directories to search for ready-to-run programs
+
+**export command**
+makes environment variables available to other programs 
+
+**echo $PATH**
+the dollar preceding PATH tells echo to repeat the value of the variable PATH 
 
 ---
 
@@ -159,13 +171,16 @@ drwx------@ 17 john  staff   544 Oct  1 15:25 ..
 -rw-r--r--   1 john  staff   125 Sep 17 14:12 mdtrial.md
 -rw-r--r--@  1 john  staff  2227 Oct  1 15:25 slides.md
 ```
+ls = list
+la = long
+
 ---
 ## Solution
 John now goes into the directory where slides.md is.
 ```
 cd /Users/john/Desktop/DO-CLASS
 ```
-He exports the Path of reveal-md to his directory.
+He makes the path of reveal-md available for his directory.
 ```
 export PATH=~/.npm-global/bin:$PATH
 ```
@@ -174,6 +189,11 @@ John can finally open his slides with a short command procedure.
 reveal-md slides.md -w
 Reveal-server started at http://localhost:1948
 ```
+---
+## Thank you for Listening
+
+![image](John light bulb.jpeg)
+
 ---
 
 ### Sources
@@ -186,3 +206,6 @@ Jones,M. (2011). Evolution of shells in Linux. Retrieved 02/10/20 from https://d
 NPM (2020). A Note on Permissions. Retrieved 02/10/20 from http://npm.github.io/installation-setup-docs/installing/a-note-on-permissions.html
 
 Nodejs.org (2011). What is npm. Retrieved 02/10/20 from https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
+
+The Linux Information Project (2007). Retrieved 02/10/20 from http://www.linfo.org/path_env_var.html
+
