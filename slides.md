@@ -1,6 +1,6 @@
 ## Say Hi to JOHN
 
-![img]()
+![John Waving](John waving.jpeg)
 
 John wants to do a good job in his Digital Organization class.
 But he doesn't understand what is happening on his MacBook.
@@ -10,6 +10,8 @@ Let's help John out.
 ---
 
 ## What is zsh?
+
+![John Headscratch](John Headscratch.jpeg)
 
 John has found the Terminal on his Mac. The first thing he reads is:
 ```
@@ -93,7 +95,8 @@ To see hidden files on Mac:
 [Johns-MacBook:DO-CLASS john$
 > export PATH=~/.npm-global/bin:$PATH
 > echo $PATH
-/Users/john/.npm-global/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+/Users/john/.npm-global/bin:/usr/local/bin:
+/usr/bin:/bin:/usr/sbin:/sbin
 > reveal-md
 [Usage: cli <slides.md> [options]
 See https://github.com/webpro/reveal-md for more details.
