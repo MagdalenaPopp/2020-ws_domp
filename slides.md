@@ -7,12 +7,6 @@ But he doesn't understand what is happening on his MacBook.
 
 Let's help John out.
 
----
-
-## Neues Slide vom Prof.
-
-* blah blah
-* more blah blah
 
 ---
 
