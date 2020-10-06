@@ -1,4 +1,4 @@
-# Say Hi to JOHN
+## Say Hi to JOHN
 
 ![image]()
 
@@ -6,14 +6,6 @@ John wants to do a good job in his Digital Organization class.
 But he doesn't understand what is happening on his MacBook.
 
 Let's help John out.
-
-
----
-
-## Beobachtung
-
-* die Studentinnen sind sehr engagiert
-* ich bin zufrieden
 
 ---
 
