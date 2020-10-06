@@ -40,7 +40,6 @@ John:~ john$ cd /Users/john/Desktop/DO-CLASS
 cd = change directory
 
 ---
-
 ## Slides won't open
 John is in the correct directory. He has installed npm, reveal-md and node but...
 ~~~~
@@ -55,13 +54,23 @@ v.12.18.3
 -bash: -v: command not found
 ~~~~
 ...his slides still won't open.
+---
+## Some important inputs
+
+- npm = Node Package Manager
+- install -g = global install
+--> module is accessible from any project
+- node.js = open-source, Javascript runtime environment
+- reveal.js = free open source HTML presentation framework --> to create presentations 
+- reveal-md = using Markdown (instead of HTML) to create presentations
 
 ---
 ## Solving John's Problem
 Finally, he uses npx and **it works**...
 
 - npx = npm package runner
---> it works because it doesn't matter where or if you've installed your package (reveal-md). npx will temporarily install it and run it.
+--> it works because it doesn't matter where or if you've installed reveal-md.
+--> npx will temporarily install it and run it.
 ```
 [Johns-MacBook:DO-CLASS john$ npx reveal-md slides.md
 Downloading Chromium r674921 - 108.3 Mb [==========] 100% 0.0s
@@ -75,6 +84,7 @@ Where is the reveal-md File saved?
 /Users/john/.npm-global/bin/reveal-md
 ```
 John has found the correct 'Path' to his slides. NPM stores its packages in the hidden files on MaBook. John does not have permission to write to these directories.
+bin = binary file --> composed of something other than human-readable text
 
 Problem 2: Hidden files and Mac Permissions
 
@@ -101,6 +111,11 @@ To see hidden files on Mac:
 [Usage: cli <slides.md> [options]
 See https://github.com/webpro/reveal-md for more details.
 ```
+---
+## Command Translations
+- PATH = tells the shell which directories to search for ready-to-run programs
+- export command = makes environment variables available to other programs 
+- echo $PATH = to check the path and see what directories are included in the currently active path of the shell The directories listed are those that are searched for commands. 
 
 ---
 
@@ -161,7 +176,7 @@ Reveal-server started at http://localhost:1948
 ```
 ---
 
-## Sources
+### Sources
 Warren, T. (2019). Apple replaces bash with zsh as the default shell in macOS Catalina. Retrieved 02/10/20 from https://www.theverge.com/2019/6/4/18651872/apple-macos-catalina-zsh-bash-shell-replacement-features
 
 Apple Support (2020). Use zsh as the default shell on your Mac. Retrieved 02/10/20 from https://support.apple.com/en-us/HT208050
@@ -169,3 +184,5 @@ Apple Support (2020). Use zsh as the default shell on your Mac. Retrieved 02/10/
 Jones,M. (2011). Evolution of shells in Linux. Retrieved 02/10/20 from https://developer.ibm.com/tutorials/l-linux-shells/#artrelatedtopics
 
 NPM (2020). A Note on Permissions. Retrieved 02/10/20 from http://npm.github.io/installation-setup-docs/installing/a-note-on-permissions.html
+
+Nodejs.org (2011). What is npm. Retrieved 02/10/20 from https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
