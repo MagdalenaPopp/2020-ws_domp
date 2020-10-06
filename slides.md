@@ -1,6 +1,6 @@
 ## Say Hi to JOHN
 
-![image]()
+![img]()
 
 John wants to do a good job in his Digital Organization class.
 But he doesn't understand what is happening on his MacBook.
