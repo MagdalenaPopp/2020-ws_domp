@@ -1,6 +1,6 @@
 ## Say Hi to JOHN
 
-![John Waving](John waving.jpeg)
+![image](John waving.jpeg)
 
 John wants to do a good job in his Digital Organization class.
 But he doesn't understand what is happening on his MacBook.
