@@ -11,6 +11,10 @@ Let's help John out.
 
 ---
 
+![JohnAtComputer](JohnAtComputer.jpeg)
+
+---
+
 ## What is zsh?
 
 John has found the Terminal on his Mac. The first thing he reads is:
