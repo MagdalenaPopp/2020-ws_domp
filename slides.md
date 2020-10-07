@@ -114,8 +114,11 @@ John has found the correct path to his slides. NPM stores its packages in the hi
 ## Hidden Files
 To see hidden files on Mac:
 1. John opens Users in Macintosh HD via Spotlight Search (e.g.users/john)
+
 2. He presses Command+Shift+Dot
+
 3. John's hidden files become visible.
+
 4. Undo reveal by repeating step 2
 
 ---
