@@ -52,6 +52,8 @@ John:~ john$ cd /Users/john/Desktop/DO-CLASS
 
 > **install -g** = global install (module is accessible from any project)
 
+---
+
 > **node.js** = open-source, Javascript runtime environment
 
 > **reveal.js** = free open source HTML presentation framework 
