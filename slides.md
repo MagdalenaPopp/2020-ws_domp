@@ -43,13 +43,20 @@ John:~ john$ cd /Users/john/Desktop/DO-CLASS
 
 ---
 ## Some important inputs
-**cd** = change directory
-**sudo** = run command as superuser
-**npm** = Node Package Manager
-**install -g** = global install (module is accessible from any project)
-**node.js** = open-source, Javascript runtime environment
-**reveal.js** = free open source HTML presentation framework 
-**reveal-md** = using Markdown (instead of HTML) to create presentations
+
+> **cd** = change directory
+
+> **sudo** = run command as superuser
+
+> **npm** = Node Package Manager
+
+> **install -g** = global install (module is accessible from any project)
+
+> **node.js** = open-source, Javascript runtime environment
+
+> **reveal.js** = free open source HTML presentation framework 
+
+> **reveal-md** = using Markdown (instead of HTML) to create presentations
 
 
 ---
