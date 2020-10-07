@@ -42,10 +42,11 @@ John:~ john$ cd /Users/john/Desktop/DO-CLASS
 ---
 ## Some important inputs
 **cd** = change directory
+**sudo** = run command as superuser
 **npm** = Node Package Manager
 **install -g** = global install (module is accessible from any project)
 **node.js** = open-source, Javascript runtime environment
-**reveal.js** = free open source HTML presentation framework; to create presentations 
+**reveal.js** = free open source HTML presentation framework 
 **reveal-md** = using Markdown (instead of HTML) to create presentations
 
 
@@ -106,7 +107,7 @@ To see hidden files on Mac:
 
 ## Important commands for fixing Permissions
 **PATH**
-tells the shell which directories to search for ready-to-run programs
+(=variable) tells the shell which directories to search for ready-to-run programs
 
 **export command**
 makes environment variables available to other programs 
@@ -118,9 +119,10 @@ the dollar preceding PATH tells echo to repeat the value of the variable PATH
 
 ## To circumvent Mac Permissions:
 John has to configure his directory (DO-Class) 
-to run reveal-md by making it's path available 
+to run reveal-md by making it's absolute path available 
 ```
 [Johns-MacBook:DO-CLASS john$
+> /Users/john/.npm-global/bin/reveal-md
 > export PATH=~/.npm-global/bin:$PATH
 > echo $PATH
 /Users/john/.npm-global/bin:/usr/local/bin:
@@ -129,17 +131,6 @@ to run reveal-md by making it's path available
 [Usage: cli <slides.md> [options]
 See https://github.com/webpro/reveal-md for more details.
 ```
-
----
-## Important commands for fixing Permissions
-**PATH**
-tells the shell which directories to search for ready-to-run programs
-
-**export command**
-makes environment variables available to other programs 
-
-**echo $PATH**
-the dollar preceding PATH tells echo to repeat the value of the variable PATH 
 
 ---
 
