@@ -124,13 +124,13 @@ To see hidden files on Mac:
 ---
 
 ## Important commands for fixing Permissions
-**PATH**
+> **PATH**
 (=variable) tells the shell which directories to search for ready-to-run programs
 
-**export command**
+> **export command**
 makes environment variables available to other programs 
 
-**echo $PATH**
+> **echo $PATH**
 the dollar preceding PATH tells echo to repeat the value of the variable PATH 
 
 ---
