@@ -104,6 +104,18 @@ To see hidden files on Mac:
 
 ---
 
+## Important commands for fixing Permissions
+**PATH**
+tells the shell which directories to search for ready-to-run programs
+
+**export command**
+makes environment variables available to other programs 
+
+**echo $PATH**
+the dollar preceding PATH tells echo to repeat the value of the variable PATH 
+
+---
+
 ## To circumvent Mac Permissions:
 John has to configure his directory (DO-Class) 
 to run reveal-md by making it's path available 
@@ -119,7 +131,7 @@ See https://github.com/webpro/reveal-md for more details.
 ```
 
 ---
-## Command Translations
+## Important commands for fixing Permissions
 **PATH**
 tells the shell which directories to search for ready-to-run programs
 
