@@ -130,6 +130,8 @@ To see hidden files on Mac:
 > **export command**
 makes environment variables available to other programs 
 
+---
+
 > **echo $PATH**
 the dollar preceding PATH tells echo to repeat the value of the variable PATH 
 
