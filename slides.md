@@ -1,6 +1,8 @@
 ## Say Hi to JOHN
 
-![image](John waving.jpeg)
+![JohnWaving](JohnWaving.jpeg)
+
+---
 
 John wants to do a good job in his Digital Organization class.
 But he doesn't understand what is happening on his MacBook.
@@ -37,7 +39,7 @@ John:~ john$ cd /Users/john/Desktop/DO-CLASS
 ```
 ---
 
-![John Headscratch](John Headscratch.jpeg)
+![JohnHeadscratch](JohnHeadscratch.jpeg)
 
 ---
 ## Some important inputs
@@ -68,7 +70,7 @@ v.12.18.3
 
 ---
 
-![John Shoulder Shrug](John Shoulder Shrug.jpeg)
+![JohnShoulderShrug](JohnShoulderShrug.jpeg)
 
 ---
 ## Solving John's Problem
@@ -195,7 +197,7 @@ Reveal-server started at http://localhost:1948
 ---
 ## Thank you for Listening
 
-![image](John light bulb.jpeg)
+![JohnLightBulb](JohnLightBulb.jpeg)
 
 ---
 
