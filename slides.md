@@ -106,7 +106,7 @@ John has found the correct path to his slides. NPM stores its packages in the hi
 
 ---
 
-**bin** = binary file --> composed of something other than human-readable text
+> **bin** = binary file --> composed of something other than human-readable text
 
 ---
 
