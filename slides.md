@@ -102,6 +102,8 @@ Where is the reveal-md File saved?
 ```
 John has found the correct path to his slides. NPM stores its packages in the hidden files on MaBook. John does not have permission to write to these directories.
 
+---
+
 **bin** = binary file --> composed of something other than human-readable text
 
 **Problem 2: Hidden files and Mac Permissions**
