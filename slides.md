@@ -220,15 +220,15 @@ Reveal-server started at http://localhost:1948
 ---
 
 ### Sources
-Warren, T. (2019). Apple replaces bash with zsh as the default shell in macOS Catalina. Retrieved 02/10/20 from https://www.theverge.com/2019/6/4/18651872/apple-macos-catalina-zsh-bash-shell-replacement-features
+##### Warren, T. (2019). Apple replaces bash with zsh as the default shell in macOS Catalina. Retrieved 02/10/20 from https://www.theverge.com/2019/6/4/18651872/apple-macos-catalina-zsh-bash-shell-replacement-features
 
-Apple Support (2020). Use zsh as the default shell on your Mac. Retrieved 02/10/20 from https://support.apple.com/en-us/HT208050
+##### Apple Support (2020). Use zsh as the default shell on your Mac. Retrieved 02/10/20 from https://support.apple.com/en-us/HT208050
 
-Jones,M. (2011). Evolution of shells in Linux. Retrieved 02/10/20 from https://developer.ibm.com/tutorials/l-linux-shells/#artrelatedtopics
+##### Jones,M. (2011). Evolution of shells in Linux. Retrieved 02/10/20 from https://developer.ibm.com/tutorials/l-linux-shells/#artrelatedtopics
 
-NPM (2020). A Note on Permissions. Retrieved 02/10/20 from http://npm.github.io/installation-setup-docs/installing/a-note-on-permissions.html
+##### NPM (2020). A Note on Permissions. Retrieved 02/10/20 from http://npm.github.io/installation-setup-docs/installing/a-note-on-permissions.html
 
-Nodejs.org (2011). What is npm. Retrieved 02/10/20 from https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
+##### Nodejs.org (2011). What is npm. Retrieved 02/10/20 from https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/
 
-The Linux Information Project (2007). Retrieved 02/10/20 from http://www.linfo.org/path_env_var.html
+##### The Linux Information Project (2007). Retrieved 02/10/20 from http://www.linfo.org/path_env_var.html
 
