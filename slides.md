@@ -129,7 +129,7 @@ To see hidden files on Mac:
 > **PATH**
 (=variable) tells the shell which directories to search for ready-to-run programs
 
-Don't confuse this with **search path**!
+> Don't confuse this with **search path**!
 
 ---
 > **export command**
