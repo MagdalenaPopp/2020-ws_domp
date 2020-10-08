@@ -129,10 +129,11 @@ To see hidden files on Mac:
 > **PATH**
 (=variable) tells the shell which directories to search for ready-to-run programs
 
-> **export command**
-makes environment variables available to other programs 
+Don't confuse this with **search path**
 
 ---
+> **export command**
+makes environment variables available to other programs 
 
 > **echo $PATH**
 the dollar preceding PATH tells echo to repeat the value of the variable PATH 
