@@ -139,6 +139,10 @@ the dollar preceding PATH tells echo to repeat the value of the variable PATH
 
 ---
 
+![JohnBubble](JohnBubble.jpeg)
+
+---
+
 ## To circumvent Mac Permissions:
 John has to configure his directory (DO-Class) 
 to run reveal-md by making it's absolute path available 
