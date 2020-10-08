@@ -97,10 +97,6 @@ Downloading Chromium r674921 - 108.3 Mb [==========] 100% 0.0s
 ...**but now** every time he wants to open his slides, John has to wait **ages** for the download to complete.
 
 ---
-
----?video=npx.mp4
-
----
 ## Solving John's Problem continued
 Where is the reveal-md File saved?
 ```
